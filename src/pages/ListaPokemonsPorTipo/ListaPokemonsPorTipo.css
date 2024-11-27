@@ -1,0 +1,35 @@
+.lista-pokemon-por-tipo {
+    text-align: center;
+    padding: 2rem;
+}
+
+.titulo {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    margin-bottom: 2rem;
+}
+
+.titulo h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.tipo-img {
+    width: 125px; 
+    height: 80px; 
+}
+
+.pokemon-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    padding: 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}

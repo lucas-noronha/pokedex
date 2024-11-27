@@ -1,0 +1,16 @@
+.habilidades-pokemon {
+    text-align: left;
+}
+
+.habilidades-pokemon h3 {
+    margin-bottom: 0.5rem;
+}
+
+.habilidades-pokemon ul {
+    list-style: none;
+    padding: 0;
+}
+
+.habilidades-pokemon li {
+    margin: 0.5rem 0;
+}

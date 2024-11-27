@@ -1,0 +1,36 @@
+.pokedex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    padding: 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.pokemon-card {
+    flex: 1 1 calc(20% - 1rem);
+    max-width: calc(20% - 1rem);
+    box-sizing: border-box;
+}
+
+@media (max-width: 1200px) {
+    .pokemon-card {
+        flex: 1 1 calc(33.33% - 1rem);
+        max-width: calc(33.33% - 1rem);
+    }
+}
+
+@media (max-width: 768px) {
+    .pokemon-card {
+        flex: 1 1 calc(50% - 1rem);
+        max-width: calc(50% - 1rem);
+    }
+}
+
+@media (max-width: 480px) {
+    .pokemon-card {
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+}

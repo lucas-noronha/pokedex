@@ -1,0 +1,24 @@
+.detalhes-pokemon {
+    text-align: center;
+    padding: 2rem;
+    background-image: url('../../assets/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+.detalhes-pokemon__overlay {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.detalhes-pokemon__colunas {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+}

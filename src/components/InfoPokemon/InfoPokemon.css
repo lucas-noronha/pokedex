@@ -1,0 +1,12 @@
+.info-pokemon {
+    text-align: center;
+}
+
+.info-pokemon h2 {
+    margin: 1rem 0;
+}
+
+.info-pokemon p {
+    font-size: 1rem;
+    margin: 0.5rem 0;
+}
